@@ -30,4 +30,4 @@ The overall model performed with 98.1% accuracy and 94.5 F1.
 
 ## Conclusion
 
-The Model can benefit company in knowing if an employee will quit or not. Further examinations can be performed to look  t various phenomenon, at various tenure years. Focusing on Satisfaction level and various factors that contributing to that will be beneficial in helping the stakeholder address thier business problem retaining employees.
+The Model can benefit company in knowing if an employee will quit or not. Further examinations can be performed to look at various phenomenon occuring at various tenure duration. Focusing on Satisfaction level and various factors that contributing to that will be beneficial in helping the stakeholder address thier business problem retaining employees.
