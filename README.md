@@ -17,7 +17,7 @@ According to International Labour Organisation the adopted Conventional work hou
 
 The Salifort Motors HR Data came from [Kaggle.com](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv). The data consisted of approximately 15K Unique employees and 1- features. The features Included information from Tenure Duration, Satisfaction Level, Project Contribution, Last Evaluation, Salary, Department etc.
 
-[Data Distribution](.//images/Split_turnover.png)
+![Data Distribution](.//images/Split_turnover.png)
 
 
 ### Modeling and Evaluation 
@@ -25,7 +25,7 @@ The Salifort Motors HR Data came from [Kaggle.com](https://www.kaggle.com/datase
 Various Models were built, Concluded on a XGBoost model comprising 500 Desision trees was used to determine feature importance in will a employee quit or not. The below plot shows that Tenure duration, Satisfaction level, project contribution  are the top 3 most important factors and Monthly work hours are correlated to theses features.
 The overall model performed with 98.1% accuracy and 94.5 F1.
 
-[Important Features](.//images/output.png)
+![Important Features](.//images/output.png)
 
 
 ## Conclusion
