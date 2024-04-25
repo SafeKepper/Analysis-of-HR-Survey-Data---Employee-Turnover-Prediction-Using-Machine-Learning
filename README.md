@@ -5,7 +5,7 @@
 
 The goal of this project was to create a classification Model and
 conlude on a best performing Machine Learning Model (DecisionTree, RandomForest, Xgboost) to predict employee Turnover Left or Stay. The project utilised Salifort Motors HR
-Survey Data. The final XGBoost Model performed with 94.5% F1, 97.1% Precision and 92.1% Recall determining what features were most important in seggregating Left and Stayed. Based on the modeling the main contributing factors were Tenure duration, High work hours, Satisfaction level, Total Project Contribution.
+Survey Data. The final XGBoost Model performed with 94.5% F1 score, 97.1% Precision score and 92.1% Recall score determining what features were most important in segregating employees who left and stayed in the company based on the modeling the main contributing factors were Tenure duration, High work hours, Satisfaction level, Total Project Contribution.
 
 
 ### Business Understanding 
