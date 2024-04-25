@@ -3,14 +3,13 @@
 
 ## Project Overview
 
-The goal of this project was to create a classification Model and
-conlude on a best performing Machine Learning Model (DecisionTree, RandomForest, Xgboost) to predict employee Turnover Left or Stay. The project utilised Salifort Motors HR
-Survey Data. The final XGBoost Model performed with 94.5% F1 score, 97.1% Precision score and 92.1% Recall score determining what features were most important in segregating employees who left and stayed in the company based on the modeling the main contributing factors were Tenure duration, High work hours, Satisfaction level, Total Project Contribution.
+The goal of this project was to create an ML classification Model and
+conlude on a best performing Machine Learning Model (DecisionTree, RandomForest, Xgboost) to predict employee Turnover Left or Stay. The project utilised Salifort Motors HR survey data. The final XGBoost Model performed with 94.5% f1 score, 97.1% precision score and 92.1% recall score determining what features were most important in segregating employees who left and stayed in the company based on the model, the main contributing factors were Tenure duration, High work hours, Satisfaction level, Total Project Contribution.
 
 
 ### Business Understanding 
 
-According to International Labour Organisation the adopted Conventional work hours are 48 hours a week, This is significantly lower than the work hours in gathered data, It's important to Understand what factors encourage employees to work long hours and burnout leading to turnover.
+According to the International Labour Organisation, the adopted conventional work hours are 48 hours a week, This is significantly lower than the work hours in the gathered data, It's important to understand what factors encourage employees to work long hours and burnout, leading to turnover.
 
 
 ### Data Understanding 
@@ -22,12 +21,12 @@ The Salifort Motors HR Data came from [Kaggle.com](https://www.kaggle.com/datase
 
 ### Modeling and Evaluation 
 
-Various Models were built, Concluded on a XGBoost model comprising 500 Desision trees was used to determine feature importance in will a employee quit or not. The below plot shows that Tenure duration, Satisfaction level, project contribution  are the top 3 most important factors and Monthly work hours are correlated to theses features.
-The overall model performed with 98.1% accuracy and 94.5 F1.
+Various models were built, Concluded on a XGBoost model comprising 500 Desision trees was used to determine feature importance in deciding whether an employee would quit or not. The below plot shows that tenure duration, satisfaction level, and project contribution  are the top 3 most important factors, and monthly work hours are correlated to these features.
+
 
 ![Important Features](.//images/output.png)
-
+Overall, the model performed with 98.1% accuracy and 94.5% F1.
 
 ## Conclusion
 
-The Model can benefit company in knowing if an employee will quit or not. Further examinations can be performed to look at various phenomenon occuring at various tenure duration. Focusing on Satisfaction level and various factors that contributing to that will be beneficial in helping the stakeholder address thier business problem retaining employees.
+The model can benefit the company by letting it know if an employee will quit or not. We can conduct further examinations to investigate various phenomena that occur at different tenure durations. Focusing on satisfaction levels and various factors that contribute to that will be beneficial in helping the stakeholder address their business problem of retaining employees.
